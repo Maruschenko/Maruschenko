@@ -1,0 +1,11 @@
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+83,45,28,20,64,2,88,95,73,9,74,75,28,0,44,29,71,21,60,45,95,17,0,83,17,74,1,27,86,40,26,96,49,47,3,74,16,46,3,40,91,0,55,16,85,5,7,57,84,5,44,50,52,89,75,37,74,85,90,55,16,93,62,61,69,32 + kiwi
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+3,50,1,53,91,53,82,1,18,50,53,35,75,49,83,59,70,74,57,65,15,40,92,99,20,45,85,28,57,33,79,22,86,93,18,82,93,20,85,36,56,22,45,74,47,5,81,17,30,33,41,20,23,12,50,24,78,87,34,0,97,22,70,11,16,49,1,74,69,38,11,27,11,80,23,97,41,97,73,89,99,95,75,2 + apple
+
+const capitalizeString = str => str.toUpperCase();
