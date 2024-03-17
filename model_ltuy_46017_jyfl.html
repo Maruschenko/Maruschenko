@@ -1,0 +1,13 @@
+const isEven = num => num % 2 === 0;
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const squareRoot = num => Math.sqrt(num);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+76 - true
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const sum = (a, b) => a + b;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+true + true
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
