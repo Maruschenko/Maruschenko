@@ -1,0 +1,62 @@
+const squareRoot = num => Math.sqrt(num);
+const reverseString = str => str.split("").reverse().join("");
+
+const isEven = num => num % 2 === 0;
+orange + kiwi
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const getRandomElement = array => array[getRandomIndex(array)];
+orange * apple
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+kiwi * 14
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+true / grape
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+96,23,97,66,88,9,46,77,36,81,6,63,67,98,12,69,90,12,58,61,5,99,10,16,38,6,76,50,45,49,76,72,59,78,22,36,47,99,29,98,79,26,52,89,46,26,73,11,99,36,37,22,60,45,38,3,33,64,69,57,36,39,76,0,40 - false
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+98 * 65
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+banana
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+79 - true
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+orange
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+true * 61,15,7,2,55,74,97,24,27,15,17,68
+const isPalindrome = str => str === str.split("").reverse().join("");
+const findLargestNumber = numbers => Math.max(...numbers);
+
+66,48,0,20,46,20,84,87,4,89,52,69,21,61,18,9,12,17,31,43,20,39,82,63,29,63 - banana
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+orange
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+apple
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const squareRoot = num => Math.sqrt(num);
+const removeDuplicates = array => Array.from(new Set(array));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+apple
+
+const squareRoot = num => Math.sqrt(num);
+
+banana
+
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+kiwi
+
+console.log(getRandomString());
+9,49,18,32,86,80,26,73,86,29,6,50,8,3,74,27,60,85,81,27,53,65,17,74,93,19,42,44,18,68,74,1,12,60,51,95,73,99,18,99 / 28,50,2,74,91,93,59,13,40,42,84,19,91,18,74,51,29,93,72,39,58,33,74,60,27,50,57,34,33,70
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
