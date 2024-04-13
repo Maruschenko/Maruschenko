@@ -1,0 +1,44 @@
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+// This is a comment
+kiwi * 25,67,11,43,30,47,0,36,62,45,79,29,12,22,52,82,0,30,50,19,75,29,84,80,64,85,98,45,12,57,73,94,60,24,97,29,39,55,19,65,17,28,49,83,37,77,97,39,76,7,9,63,93,9,30,57,47,59,1,22,60,49,45,18,18,30,37,16,10,7,44,10,59,22,29,99,16,37,75,71,7,62,27,22,63,83,15,64
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+false - 91
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+apple
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+orange / false
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+8 * false
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+41 + grape
+function addNumbers(a, b) { return a + b; }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+87 * true
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const multiply = (a, b) => a * b;
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const capitalizeString = str => str.toUpperCase();
+const getUniqueValues = array => [...new Set(array)];
+18 + false
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getRandomElement = array => array[getRandomIndex(array)];
+false - 89,2,37,96,18,57,53,95,29,65,75,76,81,81,60,42,85,80,69,46,56,69,67,55,24,35,44,27,24,18,50,18,12
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+2,39,2,91,47,39,24,17,5,8,99,8,17,46,88,75,24,90,16,29,36,41,3,87,89,88,23,70,27,2,64,65,15,53,46,38,21,31,39,88,6,83,49,1,19,70,79,88,45,7,49,65,99,49,97,38,69 + true
+const getRandomSubset = (array, size) => array.slice(0, size);
+
