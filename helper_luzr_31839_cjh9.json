@@ -1,0 +1,23 @@
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+59 + 15,10,25,68,95,94,62,94,28,78,50,26,38,99,53,23,19,31,21,99,57,35,50,6,50,81,23,56,3,26,69,95,80,39,52,97,11,22,88,92,73,38,51,11,26,17,67,66,79,79,86,26,65,84,60,20,99,68,49,20,64,56,40,59,45,85,8,18,22,40,7,16,82,68,6,40,59,0,44,57,3,42,69,52,47,49,53,27,4,70,34,10,65
+
+const multiply = (a, b) => a * b;
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+apple
+
+
+const greet = name => `Hello, ${name}!`;
+false * false
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+1 + apple
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+53,76 + 20
+const isEven = num => num % 2 === 0;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
