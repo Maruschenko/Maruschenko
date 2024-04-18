@@ -1,0 +1,13 @@
+44,9,34,26,17,78,66,21,12,1,51,24,55,99,69,61,59,82,59,0,50,65,71,62,69,43,17 - apple
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const randomNumber = getRandomNumber();
+
+orange * 83
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+true + kiwi
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const randomNumber = getRandomNumber();
