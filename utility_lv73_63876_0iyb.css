@@ -1,0 +1,57 @@
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const getRandomElement = array => array[getRandomIndex(array)];
+apple + 16
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+kiwi / kiwi
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const variableName = getRandomNumber();
+false / 89
+const findLargestNumber = numbers => Math.max(...numbers);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+grape
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const formatDate = date => new Date(date).toLocaleDateString();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+33,40,75,90,49,33,33,87,21,68,81,45,29,38,50,26,93,38,66,2,46,13,91,68,58,69,10,20,14,63,22,69,10,17,55,25,92,41,80,34,14,4,31,84,9,3,80,3,79,69,99,2,34,27,7,3,19,39,65,57,1,74,74,75,98,92,35,91,94,18,14,96,59,41,42 / 86
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+false + false
+
+function addNumbers(a, b) { return a + b; }
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+false * 88
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const multiply = (a, b) => a * b;
+const isPalindrome = str => str === str.split("").reverse().join("");
+false + grape
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+91,72,22,37,24,98,69,7,48,0,1,50,40,12,66,85,34,32,91,58,38,37,71,25,82,25,53,7,24,79 - false
+const multiply = (a, b) => a * b;
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+false / apple
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+32 / 12
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
